@@ -1,0 +1,150 @@
+(function($) {
+	'use strict';
+	// Navbar Menu JS
+	$('.scroll-btn, .navbar .navbar-nav li a').on('click', function(e){
+		var anchor = $(this);
+		$('html, body').stop().animate({
+			scrollTop: $(anchor.attr('href')).offset().top - 65
+		}, 1000);
+		e.preventDefault();
+	});
+
+	$('.navbar .navbar-nav li a').on('click', function(){
+		$('.navbar-collapse').collapse('hide');
+	});
+	
+	// Preloader JS
+	$(window).on('load', function() {
+		$('.preloader').fadeOut();
+	});
+
+	// WOW Animation JS
+	if($('.wow').length){
+		var wow = new WOW({
+			mobile: false
+		});
+		wow.init();
+	};
+	
+
+	$('.slider-carousel').owlCarousel({
+		dots:false,
+		loop:true,
+		items:1,
+		margin:0,
+		nav:true,
+		autoplay:true,
+		stagePadding:0
+	});
+
+$('.roadmap-carousel').owlCarousel({
+		dots:true,
+		loop:true,
+		margin:30,
+		autoplay:true,
+		stagePadding:0,
+		nav: false,
+		responsive : {
+			0 : {
+				items : 1
+			},
+			575 : {
+				items : 1
+			},
+			768 : {
+				items : 2
+			}
+		}
+	});
+	
+	$('.commercial-carousel').owlCarousel({
+		dots:true,
+		loop:true,
+		margin:30,
+		dots:false,
+		autoplay:false,
+		stagePadding:0,
+		nav: true,
+		navText: [
+			'<i class="fa fa-angle-left" aria-hidden="true"></i> PREV',
+			'NEXT <i class="fa fa-angle-right" aria-hidden="true"></i> '
+		],
+		navContainer: '.commercial .custom-nav',
+		responsive : {
+			0 : {
+				items : 1
+			},
+			575 : {
+				items : 1
+			},
+			768 : {
+				items : 3
+			}
+		}
+	});
+
+
+	$('.article-carousel').owlCarousel({
+		dots:true,
+		loop:false,
+		margin:30,
+		nav:false,
+		autoplay:true,
+		items:1,
+		stagePadding:0
+	});
+
+	$('.awards-slider').owlCarousel({
+		dots:true,
+		loop:true,
+		items:3,
+		margin:20,
+		nav:false,
+		autoplay:true,
+		stagePadding:0
+	});
+
+	$('.before-after').owlCarousel({
+		dots:true,
+		loop:true,
+		items:1,
+		margin:10,
+		nav:false,
+		autoplay:true,
+		stagePadding:0
+	});
+
+	
+	// Counter To Count Number Visit
+	var a = 0;
+	$(window).scroll(function() {
+
+	var oTop = $('.counter-div').offset().top - window.innerHeight;
+	// Md.Asaduzzaman Muhid
+	if (a == 0 && $(window).scrollTop() > oTop) {
+		$('.counter').each(function() {
+			var $this = $(this);
+			jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+				duration: 2000,
+				easing: 'swing',
+				step: function () {
+					$this.text(Math.ceil(this.Counter));
+				}
+			});
+		});
+		a = 1;// Md.Asaduzzaman Muhid
+	}
+	});
+	
+	// scrolled header
+	let header = $(".header");
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+		if (scroll >= 86) {
+			header.addClass("scrolled");
+		} else {
+			header.removeClass("scrolled");
+		}
+	});
+	
+})(jQuery);

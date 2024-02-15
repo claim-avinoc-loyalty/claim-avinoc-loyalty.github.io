@@ -1,0 +1,1116 @@
+@media only screen and (max-width:991px) {
+.navbar-toggler {
+    line-height: 1;
+    padding: 0;
+    border-radius: 0;
+}
+.navbar-toggler.menu-icon {
+    width: 35px;
+    padding:0;
+    cursor: pointer;
+    position: relative;
+    border:0px;
+    margin-right:20px;
+}
+.navbar-toggler.menu-icon span {
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: #000;
+    margin: 6px 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.navbar-toggler.menu-icon.active span {
+    position: absolute;
+    top: calc(50% - 8px);
+}
+.navbar-toggler.menu-icon.active span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+.navbar-toggler.menu-icon.active span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.navbar-toggler.menu-icon.active span:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    display: none;
+} 
+
+.navbar-light .navbar-brand {
+    width:75%;
+}
+
+.navbar-light .navbar-brand img {
+    max-height: 100px;
+}
+
+.header .navbar-brand {
+    width: 212px;
+    height: 70px;
+}
+
+.navbar-nav {
+    background: #000;
+    padding: 10px 0px;
+}
+
+.navbar-nav li {
+    margin-right: 0px;
+}
+
+.navbar-nav .nav-link {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.header.scrolled .navbar-toggler.menu-icon span {
+    background: #000;
+}
+
+.header.scrolled .navbar-nav {
+    background: #fff;
+}
+
+.header.active .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.header.active.scrolled .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.header.active .navbar-toggler.menu-icon span {
+    background: #fff;
+}
+
+.header .container-fluid {
+    padding: 0;
+}
+
+.header .navbar-brand {
+    padding-left: 15px;
+}
+
+.header {
+    padding-top: 8px;
+}
+
+.header li.logo  {
+    display: none;
+}
+.navbar-nav .sub-menu {
+    top: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.header .nav-item {
+    margin: 0px 0px;
+}
+
+}
+
+@media only screen and (max-width:767px) {
+.flush-xs {
+    padding-right: 0px;
+    padding-left: 0px;
+} 
+
+.visible-xs {
+    display: inline-block;
+}
+
+.xs-100 {
+    width: 100%;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.underlined::after {
+    left: 50%;
+    margin-left: -35px;
+    width: 70px;
+}
+
+.row-eq-height {
+    display:inline-block;
+}
+
+.page-banner h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.btn-default {
+    line-height: 50px;
+    padding: 0px 15px;
+    font-size: 15px;
+    min-width: 140px;
+}
+
+.section-title h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletter {
+    border-radius: 15px;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+}
+
+.newsletter p {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.back-footer input, .back-footer textarea {
+    font-size: 15px;
+    height: 52px;
+}
+
+.footer, .social, .copyright  {
+    text-align: center !important;
+}
+
+.footer ul li {
+    margin: 5px 10px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.copyright p ,.copyright p a {
+    font-size: 14px;
+}
+
+.copyright p a {
+    margin: 2px 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.sright {
+    padding-right: 15px;
+}
+
+.info {
+    padding: 100px 0px;
+}
+
+.input-group {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.blog-box h4 {
+    font-size: 21px;
+    min-height: 80px;
+}
+
+.pagi ul li {
+    margin: 0px 6px;
+}
+
+.article-box {
+    padding: 30px 10px;
+}
+
+.article-box .inf {
+    display: block !important;
+}
+
+.article-box h4 {
+    font-size: 16px;
+}
+
+.article-box h4 br {
+    display: none   ;
+}
+
+.article-box .date {
+    font-size: 13px;
+}
+
+.article-box .date span {
+    font-size: 13px;
+}
+
+.article-box .read {
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.anchor-crypto {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-crypto {
+    padding: 25px 25px 45px 25px;
+}
+
+.nustsell-info {
+    padding-bottom: 0;
+}
+
+.nustsell-info .img-plane {
+    position: relative;
+    top: 0px;
+}
+
+.crypto-info h2 {
+    margin-top: 20px;
+}
+
+.crypto-info h3 {
+    font-size: 21px;
+}
+
+
+
+.tab-pane .card-header a.collapsed .anchor-crypto {
+    background: none;
+}
+
+.tab-pane .card-header a.collapsed .anchor-crypto:before {
+    display: none;
+}
+
+.tab-pane .card-header a .anchor-crypto {
+    background: linear-gradient(to right, rgba(159,159,159,0.5), rgba(215,215,215,0.5));
+}
+
+.tab-pane .card-header a .anchor-crypto:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    z-index: 1;
+    border-radius: 10px;
+    background: #fff;
+    background-size: cover;
+    display: block;
+}
+
+.crypto-info2 .art1 {
+    top: -20%;
+    width: 20%;
+}
+
+.crypto-info2 .art2 {
+    position: absolute;
+    top: -20%;
+    width: 10%;
+}
+
+.back-footer.blog {
+    background-size:50% auto;
+}
+
+.nustsell-info.loyal {
+    background: none;
+    padding-bottom: 70px;
+}
+
+.pay-safely .nav-tabs {
+    padding: 20px 0px 20px 36px;
+    margin-left: 8px;
+}
+
+.pay-safely .nav-tabs li button:before {
+    left: -44px;
+}
+
+.pay-safely .nav-tabs li button:after {
+    left: -51px;
+}
+
+.features-info .art-1,
+.features-info .art-2 {
+    width: 45%;
+}
+
+.post-info .nav-tabs .nav-link {
+    min-width: 50px;
+    line-height: 48px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.post-info h3 {
+    font-size: 24px;
+}
+
+.post-info .read {
+    font-size: 16px;
+}
+
+.banner h2 {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.banner .watch {
+    font-size: 15px;
+    padding-bottom: 3px;
+    margin-left: 15px;
+}
+
+.banner .text {
+    width: 100%;
+}
+
+.heli {
+    top: -150px;
+    width: 150px;
+}
+
+.avinoc-story .section-title h2 {
+    margin-top: 20px;
+}
+
+.avinoc-story .inf h4 {
+    font-size: 40px;
+}
+
+.avinoc-story .mission {
+    padding: 20px 0px 40px 10px;
+    margin-top: 100px;
+}
+
+.projects .bg {
+    padding: 100px 10px 50px 10px;
+}
+
+.projects .logo {
+    font-size: 15px;
+}
+
+.projects .logo img {
+    margin-right: 5px;
+    width: 29px;
+}
+
+.projects .text .mb-3 img {
+    margin-bottom: 7px;
+}
+
+.projects .bgs p {
+    font-size: 14px;
+}
+
+.company-roadmap {
+    padding-top: 350px;
+    margin-top: -280px;
+}
+
+.company-roadmap .bg {
+    padding: 30px 34px 35px 24px;
+    margin-bottom: 25px;
+}
+
+.company-roadmap .center .bg:after {
+    background-size:95% auto;
+    bottom:-70px;
+}
+
+.company-roadmap .bg h3 {
+    font-size: 20px;
+}
+
+.company-roadmap .owl-theme .owl-dot button {
+    font-size: 11px;
+}
+
+.company-roadmap .owl-theme .owl-dot img {
+    bottom: auto;
+    right: -63px;
+    height: 121px;
+    min-width: 111px;
+    top: -145px;
+}
+
+.banner {
+    padding: 110px 0px 230px 0px;
+}
+
+.avinoc-story {
+    overflow: hidden;
+}
+
+.arthome-1 {
+    width: 20%;
+}
+
+.arthome-2 {
+    width: 20%;
+}
+
+.avinoc-story .pl-s,
+.avinoc-story .pr-s {
+    padding:0px 15px;
+}
+
+.company-roadmap .owl-theme .owl-dots {
+    padding-top: 22px;
+    margin-top: 100px;
+}
+
+.company-roadmap .owl-theme .owl-dot button:before {
+    top: -42px;
+}
+
+.company-roadmap .owl-theme .active button:before {
+    top: -55px;
+}
+
+.nustsell-info.social .art1 {
+    width: 25%;
+    top:-50px;
+}
+
+.model-video iframe {
+    height: 230px !important;
+}
+
+.copy-text2 input.text2 {
+    font-size: 12px;
+}
+
+.token-wallet .mission {
+    padding: 80px 20px 80px 20px;
+}
+
+ul.bulleted li {
+    font-size: 14px;
+}
+
+.page-banner .widi {
+    width: 100%;
+}
+
+.features-info.project .feature-box {
+    margin-bottom: 20px;
+}
+
+.crypto-info {
+    padding: 0px 0px 90px 0px;
+}
+
+.lpr-1,.lpr-2 {
+    width: 55%;
+}
+
+.project-art {
+    width: 20%;
+}
+
+.avoic-token .btn-default {
+    margin-bottom: 15px;
+}
+
+.loyal-crypto p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.crypto-info.about {
+    padding: 70px 0px 90px 0px;
+}
+
+.projects.about .bg {
+    padding: 40px 10px 50px 10px;
+}
+
+.projects.about .helis {
+    top: -123px;
+    right: 0px;
+    width: 240px;
+}
+
+.founders .section-title p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.founders .ins p {
+    margin-bottom: 25px;
+}
+
+.avinoc-story.about-value .mission {
+    padding: 30px 10px 60px 10px;
+}
+
+.avinoc-story.about-value .img img {
+    max-width: 250px;
+}
+
+
+.banner-art {
+    height: 20%;
+    z-index: -1;
+}
+
+.banner-1 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 178px;
+}
+	.copyright ul li a {
+    font-size: 14px;
+    margin: 2px 10px;
+}
+.company-roadmap .owl-theme .owl-nav {
+    bottom: 20px;
+}
+
+.company-roadmap .owl-theme.doti button img {
+    bottom: 160px;
+    right: -55px;
+    height: 137px;
+    min-width: 123px;
+}
+
+.company-roadmap .owl-theme .active button:before {
+    top: 147px;
+}	
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+.nav-link, .navbar-expand-md .navbar-nav .nav-link {
+    font-size:13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}  
+
+.header .nav-item {
+    margin: 0px 5px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.page-banner h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    font-size: 33px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.sright {
+    padding-right: 20px;
+}
+
+.newsletter {
+    padding: 50px 20px;
+}
+
+.footer ul li {
+    margin-right: 23px;
+}
+
+.footer ul li a {
+    font-size: 15px;
+}
+
+.footer .social a {
+    margin-left:7px;
+}
+
+.footer .social a img {
+    max-width: 25px;
+}
+
+.copyright p, .copyright p a {
+    font-size: 14px;
+}
+
+.input-group {
+    width: 300px;
+}
+
+
+.article-box {
+    padding: 40px 15px;
+}
+
+.article-box h4 {
+    font-size: 18px;
+}
+
+.article-box .date {
+    font-size: 12px;
+}
+
+.article-box .date i {
+    font-size: 12px;
+}
+
+
+.anchor-crypto {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-crypto {
+    padding: 15px 10px 15px 10px;
+}
+
+.nustsell-info {
+    padding-bottom: 50px;
+}
+
+.nustsell-info .img-plane {
+    max-width: 350px;
+    top: auto;
+    bottom: 0;
+}
+
+.crypto-info2 h3 {
+    font-size: 16px;
+    min-height: 52px;
+}
+
+.crypto-info2 .art1 {
+    width: 20%;
+}
+
+.crypto-info2 .art2 {
+    width: 20%;
+}
+
+.crypto-info h3 {
+    font-size: 24px;
+}
+
+.crypto-info .section-title h2 {
+    font-size: 29px;
+}
+
+.feature-box p {
+    font-size: 13px;
+}
+
+.features-info .art-1,
+.features-info .art-2 {
+    width: 35%;
+}
+
+.post-info h3 {
+    font-size: 20px;
+}
+
+.post-info .read {
+    font-size: 15px;
+}
+
+.post-info .nav-tabs .nav-link {
+    min-width: 52px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.banner h2 {
+    font-size: 39px;
+}
+
+.heli {
+    top: -50px;
+    width: 161px;
+}
+
+.banner {
+    padding: 110px 0px 230px 0px;
+}
+
+.avinoc-story .inf h4 {
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+.avinoc-story .inf h4 span {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.avinoc-story .inf {
+    padding: 18px 15px 17px 18px;
+}
+
+.avinoc-story .mission {
+    padding: 60px 0px 60px 60px;
+    margin-top: 140px;
+}
+
+.avinoc-story {
+    overflow: hidden;
+}
+
+.avinoc-story .mission .img {
+    right: -40px;
+}
+
+.arthome-1 {
+    width: 10%;
+}
+
+.arthome-2 {
+    width: 10%;
+}
+
+.projects .logo {
+    font-size: 15px;
+}
+
+.projects .logo img {
+    margin-right: 5px;
+    width: 29px;
+}
+
+.projects .bgs p {
+    font-size: 12px;
+}
+
+.company-roadmap .owl-theme .owl-dot button {
+    font-size: 14px;
+}
+
+.company-roadmap .owl-theme .owl-dot img {
+    bottom: 56px;
+    right: -70px;
+    height: 141px;
+    min-width: inherit;
+    width: 135px;
+}
+
+.company-roadmap .center .bg:after {
+    background-size: 95% auto;
+    bottom: -65px;
+}
+
+.company-roadmap .bg h3 {
+    font-size: 19px;
+}
+
+.company-roadmap .bg {
+    padding: 30px 30px 35px 30px;
+}
+
+.nustsell-info.social .art1 {
+    width:30%;
+}
+
+.nustsell-info.social {
+    background-size: 40% auto;
+}
+
+.model-video iframe {
+    height: 300px !important;
+}
+
+.token-wallet .mission {
+    padding: 80px 30px 80px 30px;
+}
+
+ul.bulleted li {
+    font-size: 14px;
+}
+
+.copy-text2 input.text2 {
+    font-size: 14px;
+}
+
+.token-wallet .bgs .btn-default {
+    font-size: 14px;
+}
+
+.page-banner .widi {
+    width: 100%;
+}
+
+.features-info.project .feature-box {
+    margin-bottom: 20px;
+}
+
+.crypto-info {
+    padding: 0px 0px 90px 0px;
+}
+
+.lpr-1,.lpr-2 {
+    width: 35%;
+}
+
+.project-art {
+    width: 20%;
+}
+
+.avoic-token .btn-default {
+    margin-bottom: 15px;
+}
+
+.loyal-crypto p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.loyal-crypto .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.crypto-info.about {
+    padding: 50px 0px 0px 0px;
+}
+
+.projects.about .helis {
+    top: 250px;
+    width: 320px;
+}
+
+.projects .bg {
+    padding: 40px 50px 50px 30px;
+}
+
+.founders .section-title p {
+    font-size: 18px;
+}
+
+.founders h4 {
+    font-size: 19px;
+}
+
+.founders h4 span {
+    font-size: 15px;
+}
+
+.founders .ins p {
+    font-size: 14px;
+}
+
+.avinoc-story.about-value .img img {
+    max-width: 350px;
+}
+
+.banner-art {
+    height: 20%;
+    z-index: -1;
+}
+
+.banner-1 {
+    right: 0;
+    width: 45%;
+}
+.company-roadmap .owl-theme.doti button {
+    font-size: 14px;
+}
+}
+
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left:0;
+    padding-right:0;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+.navbar-nav li {
+    margin-right: 38px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.page-banner h2 {
+    font-size: 52px;
+}
+
+.section-title h2 {
+    font-size: 46px;
+}
+
+.footer ul li {
+    margin-right: 44px;
+}
+
+.footer .social a {
+    margin-left: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.article-box h4 {
+    font-size: 21px;
+}
+
+.article-box .date {
+    font-size: 15px;
+}
+
+.nustsell-info .img-plane {
+    max-width: 50%;
+    bottom: 0;
+    top: auto;
+}
+
+.crypto-info2 .art1 {
+    width: 20%;
+    top: -5%;
+}
+
+.crypto-info2 .art2 {
+    width: 10%;
+}
+
+.feature-box p {
+    font-size: 14px;
+}
+
+.features-info .art-1,
+.features-info .art-2 {
+    width: 30%;
+}
+
+.banner h2 {
+    font-size: 51px;
+}
+
+.avinoc-story .inf h4 {
+    position: relative;
+    z-index: 1;
+    color: #002d73;
+    font-size: 35px;
+}
+
+.heli {
+    top: -120px;
+    width: 250px;
+}
+
+.arthome-1 {
+    width: 10%;
+
+}
+
+.avinoc-story .mission .img {
+    position: relative;
+    right: -51px;
+}
+
+.avinoc-story  {
+    overflow: hidden;
+}
+
+.arthome-2 {
+    width: 10%;
+}
+
+.projects .logo {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.nustsell-info.social .art1 {
+    width: 20%;
+}
+
+ul.bulleted li {
+    font-size: 14px;
+}
+
+.copy-text2 input.text2 {
+    font-size: 14px;
+}
+
+.token-wallet .bgs .btn-default {
+    font-size: 14px;
+}
+
+.lpr-1,.lpr-2 {
+    width: 35%;
+}
+
+.project-art {
+    width: 20%;
+}
+
+.features-info.project h4 {
+    font-size: 19px;
+}
+
+.founders .section-title p {
+    font-size: 19px;
+}
+
+.projects.about .helis {
+    top: 175px;
+    width: 417px;
+}
+
+.banner-art {
+    height: 41%;
+}
+
+.banner-1 {
+    right: 0;
+    width: 55%;
+}
+
+}
